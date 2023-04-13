@@ -1,0 +1,50 @@
+
+begin 
+    numeric nNum1, nNum2, nNum3, nNum4, nNum4, nNum5, nNum6, nNum7, nNum8
+    display "ENTER THE FIRST NUMBER : "
+    accept 23
+    display "ENTER THE SECOND NUMBER : "
+    accept 3
+    display "ENTER THE THIRD NUMBER : "
+    accept 8
+    display "ENTER THE FOURTH NUMBER : "
+    accept 1
+    display "ENTER THE FIFTH NUMBER : "
+    accept 0
+    display "ENTER THE SIXTH NUMBER : "
+    accept 5
+    display "ENTER THE SEVENTH NUMBER : "
+    accept 30
+    display "ENTER THE EIGHT NUMBER : "
+    accept -2
+    Num=nNum1
+    if(Num<nNum2)
+    begin
+        Num=nNum2
+    end
+    if(Num<nNum3)
+    begin
+        Num=nNum3
+    end
+    if (Num<nNum4)
+    begin
+        Num=nNum4
+    end
+    if(Num<nNum5)
+    begin
+        Num=nNum5
+    end 
+    if(Num<nNum6) 
+    begin 
+         Num=nNum6
+    end
+    if(Num<nNum7)
+    begin
+        Num=nNum7
+    end
+    if(Num<nNum8)
+    begin
+        Num=nNum8
+    end
+    display "MAXIMA ONE : " Num
+end
