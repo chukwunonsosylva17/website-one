@@ -1,0 +1,124 @@
+keywords let vs var vs const;
+let keyword - it is use creates a local variable in javascript and can be re-assigned. initialization 
+during the declaration of a let variable is optional. A let variable will contain undefine if nothing is 
+assigned to it. 
+example;
+let camper = "James";
+let cmaper = "David"
+const keyword - a const variable can be declared using the keyword const. it must have an assignment. any 
+attempt to re-assign const. variable will result in javascript runtime error. 
+example;
+ const favPet = "Cat";
+fav-pet = "Dog";
+
+var keyword - a variable can be declared with var but the bisggest problem with declaring a variable with
+var keyword is that you can easily overwrite the variable declarations.
+example;
+var camper = "James";
+var camper = "David";
+
+TYPES OF CONVERSION 
+1: converting strings to numbers;
+The global method number() converts a variable (or a value) into a number. A numeric string ("3.14") converts 
+to (3.14 ) an empty string ("") converts to 0. A non numeric string ("John") converts to NaN (Not a Number)
+
+2: converting numbers to strings;
+The global method string() can convert numbers to string. It can be any type of numbers,  literal, variables, 
+or expression: string (x) returns a string from a number variable x.
+string (123) returns a string from a number literal 123.
+string (100 + 23) returns a string from a number from an expression.
+toExponential() returns a string, with a number rounded and written using Exponential notation.
+toFixed() returns a string, string with a number rounded and written with a specified number of decimals.
+toPrecission() returns a string with a number written with a specified length.
+
+3: converting dates to numbers; 
+The global method Number() can be used to convert dates to numbers 
+d = newDate();
+number (d) // returns 140456802779
+the date method getTime() does the same 
+d = newDate();
+d.getTime()  
+
+4: converting Dates to strings; 
+the global method strings() can convert dates to strings.
+string (date()) // returns "Fri.  14 2023 09:46:19 GMT + 0.200 (W.Africa Dayligth Time)".
+Date() .toString does the same 
+Method                          Description 
+getDate()                 gets the date as a number (1 - 31);
+getDay()                  gets the weekday a number (1- 6);
+getFullYear()             gets the four digit year (yyyy);
+getHours                  gets the hour (0 - 23);
+getMilliseconds()         gets the Milliseconds (0 - 999);
+getMinutes()              gets the minutes (0 - 59);
+getMonths()               gets the month (0 - 11);
+getSeconds()              gets the seconds (0 - 60);
+getTime()                 gets the time (milliseconds since January 1, 19970);
+
+5: converting Boolean to numbers; 
+The global method number() can also convert booleans to number.
+Number(false) // returns 0;
+Number(true) returns 1;
+
+6: converting Boolean to strings; 
+The global method string() can converts booleans to strings. 
+string(false) // returns "false";
+string(true) // returns "true"; 
+The boolean method .toString() does the same 
+false.toString()
+true.tostring()
+
+7: Authomatic type conversion; 
+when javascript tries to operate on a wrong data type, it will try to convert ot convert value to a 
+right type. The result is not always what you expect.
+5 + null // returns 5 because null is converted to 0;
+"5" + null // returns "5null" because null is converted to "null";
+"5" + 2 // returns "52" because 2 is converted to "2";
+"5" + "2" // returns 10 because "5" and "2" are converted to 5 and 2;
+
+8: Authomatic string conversion; 
+javascript automatically call the variables .toString() function when you try to output an object or 
+variable:
+// if myVar = { name: Fjohn // .toString converts it to "[object Object]"};
+// if myVar = [1, 2, 3, 4] // .toString converts it to "1, 2, 3, 4";
+// if myVar = newDate // .toString converts to "Fri Apr 14 2023 10:37:08 GMT +02 00";
+numbers and boolean are also converted but this is not very visible 
+// if myVar = true // .toString converts it to "true";
+// if myVar = false // .toString converts it to "false";
+
+Post Increment:
+
+Pre Increment:
+
+Post Decrement:
+
+Pre Decrement:
+
+String Methods: 
+1: length() string method; 
+in javascript, the length() string method returns the total number of characters
+the length of a string. 
+
+2: concat() string method;
+it is used to appeal one string to the end of another string. this method returns a string representing
+the text of the combined strings.
+
+3: equals();
+it is used to test equality between two strings. it compares the content of each string. when the characters
+between the two match, the method returns true or false the characters do not match. strins can be compared
+without considering the upper/lower case .equalsIgnoreCase() can be used.
+
+4: indexof() string method; 
+It returns the first occurrance of a character or a substring in a string. the character/substring that you 
+want to find in the index goes inside of the ().
+ if  it cannot find the character or substring it will return -1.
+
+5: chart string method;
+This string method returns the character of a string at a specified index. the index value is passed inside
+of the () and should lie between 0 and length -1.
+
+6: toUpperCase() and toLowerCase() Methods;
+strings can be easily converted to upper and lower case with the help of a string methods.
+.toUpperCase() returns the string value converted to uppercase.
+.toLowerCase() returns the string value converted to lowercase.
+
+Differnce between for...of and for...in:

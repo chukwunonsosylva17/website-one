@@ -2,19 +2,19 @@
 begin 
     numeric nNum1, nNum2, nNum3, nNum4, nNum4, nNum5, nNum6, nNum7, nNum8
     display "ENTER THE FIRST NUMBER : "
-    accept 23
+    accept 27
     display "ENTER THE SECOND NUMBER : "
-    accept 3
+    accept 5
     display "ENTER THE THIRD NUMBER : "
-    accept 8
+    accept 9
     display "ENTER THE FOURTH NUMBER : "
     accept 1
     display "ENTER THE FIFTH NUMBER : "
     accept 0
     display "ENTER THE SIXTH NUMBER : "
-    accept 5
+    accept 2
     display "ENTER THE SEVENTH NUMBER : "
-    accept 30
+    accept 60
     display "ENTER THE EIGHT NUMBER : "
     accept -2
     Num=nNum1
